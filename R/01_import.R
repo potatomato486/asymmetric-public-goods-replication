@@ -8,7 +8,7 @@
 # 1. Import raw data
 # ------------------------------------------------------------
 
-pgg_raw <- read.csv("LinearPGG_4P_ExperimentalData.csv")
+pgg_raw <- read.csv("data/LinearPGG_4P_ExperimentalData.csv")
 
 
 # ------------------------------------------------------------

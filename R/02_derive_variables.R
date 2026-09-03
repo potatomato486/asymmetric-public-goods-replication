@@ -2,6 +2,7 @@
 # 02_derive_variables.R
 # Create analysis variables for the four-player linear PGG data
 # ============================================================
+#construct player-round / group-round variables
 
 # This script assumes that 01_import.R has been run first.
 
@@ -88,3 +89,15 @@ dim(group_round)
 unique(group_round$GroupEndowment)
 
 range(group_round$GroupRelativeContribution)
+
+###surplus
+group_round$Surplus <-
+  (
+    group_round$GroupEffectiveContribution -
+      group_round$GroupContribution
+  ) /
+  group_round$GroupEndowment
+
+range(group_round$Surplus)
+summary(group_round$Surplus)
+sum(is.na(group_round$Surplus))
