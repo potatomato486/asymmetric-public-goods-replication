@@ -26,22 +26,44 @@ sum(
   pgg_analysis$Contribution >
     pgg_analysis$Endowment
 )
+# ------------------------------------------------------------
+# Productivity
+# Four-player linear game
+# ------------------------------------------------------------
+
 pgg_analysis$Productivity <- ifelse(
-  pgg_analysis$Treatment =="FE",
-  1.6,
+  pgg_analysis$Treatment == "FE",
+  3.2,
   ifelse(
-    pgg_analysis$Treatment =="AI",
+    pgg_analysis$Treatment == "AI",
     ifelse(
       pgg_analysis$PlayerID %in% c(1, 2),
-      1.9,
-      1.3
+      3.8,
+      2.6
     ),
     ifelse(
       pgg_analysis$PlayerID %in% c(1, 2),
-      1.3,
-      1.9
+      2.6,
+      3.8
     )
   )
+)
+
+table(
+  pgg_analysis$Treatment,
+  pgg_analysis$Productivity
+)
+
+unique(
+  pgg_analysis[
+    ,
+    c(
+      "Treatment",
+      "PlayerID",
+      "Endowment",
+      "Productivity"
+    )
+  ]
 )
 table(pgg_analysis$Treatment,
       pgg_analysis$Productivity)
