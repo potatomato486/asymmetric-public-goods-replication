@@ -1107,3 +1107,17 @@ ggsave(
   height = 5,
   dpi = 300
 )
+ggsave(
+  "figures/figure_4b_replication.png",
+  figure_4b,
+  width = 5,
+  height = 5,
+  dpi = 300
+)
+ggsave(
+  "figures/figure_4b_surplus_extension.png",
+  figure_4b_surplus,
+  width = 5,
+  height = 5,
+  dpi = 300
+)
