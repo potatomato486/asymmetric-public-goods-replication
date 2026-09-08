@@ -1,0 +1,12 @@
+RUN longer linear FE: 16 chains x 12000 revisions
+DONE longer linear FE: 86.8s; {'group_relative_contribution': 0.6466, 'surplus': 1.4225, 'success': nan}
+RUN longer linear AI: 16 chains x 12000 revisions
+DONE longer linear AI: 85.8s; {'group_relative_contribution': 0.7482, 'surplus': 1.8839, 'success': nan}
+RUN longer linear MI: 16 chains x 12000 revisions
+DONE longer linear MI: 83.7s; {'group_relative_contribution': 0.5532, 'surplus': 1.0643, 'success': nan}
+RUN longer threshold FE: 16 chains x 12000 revisions
+DONE longer threshold FE: 75.7s; {'group_relative_contribution': 0.5828, 'surplus': 0.2393, 'success': 0.9865}
+RUN longer threshold AI: 16 chains x 12000 revisions
+DONE longer threshold AI: 69.7s; {'group_relative_contribution': 0.4816, 'surplus': 0.1731, 'success': 0.7856}
+RUN longer threshold MI: 16 chains x 12000 revisions
+DONE longer threshold MI: 100.4s; {'group_relative_contribution': 0.5354, 'surplus': 0.2689, 'success': 0.9651}

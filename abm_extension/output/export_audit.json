@@ -1,0 +1,128 @@
+[
+  {
+    "cell": "linear_AI",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  },
+  {
+    "cell": "linear_FE",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  },
+  {
+    "cell": "linear_MI",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  },
+  {
+    "cell": "threshold_AI",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  },
+  {
+    "cell": "threshold_FE",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  },
+  {
+    "cell": "threshold_MI",
+    "agent_input_shape": [
+      102400,
+      29
+    ],
+    "group_input_shape": [
+      25600,
+      25
+    ],
+    "join_rows_before": 25600,
+    "join_rows_after": 25600,
+    "join_match_rate": 1,
+    "duplicate_keys": 0,
+    "contribution_bounds": true,
+    "agent_count_conservation": true,
+    "all_payoffs_recomputed": true,
+    "all_utilities_recomputed": true,
+    "all_csv_hashes_match": true,
+    "excluded_rows": 0
+  }
+]

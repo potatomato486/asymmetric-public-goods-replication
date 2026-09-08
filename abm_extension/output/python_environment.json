@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "data_decoder_scipy": "1.18.1",
+  "test_returncode": 0
+}

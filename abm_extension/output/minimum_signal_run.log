@@ -1,0 +1,12 @@
+RUN minimum_signal linear FE: 16 chains x 6000 revisions
+DONE minimum_signal linear FE: 45.9s; {'group_relative_contribution': 0.5922, 'surplus': 1.3028, 'success': nan}
+RUN minimum_signal linear AI: 16 chains x 6000 revisions
+DONE minimum_signal linear AI: 41.5s; {'group_relative_contribution': 0.6205, 'surplus': 1.5689, 'success': nan}
+RUN minimum_signal linear MI: 16 chains x 6000 revisions
+DONE minimum_signal linear MI: 43.7s; {'group_relative_contribution': 0.5378, 'surplus': 1.026, 'success': nan}
+RUN minimum_signal threshold FE: 16 chains x 6000 revisions
+DONE minimum_signal threshold FE: 50.5s; {'group_relative_contribution': 0.4036, 'surplus': 0.1753, 'success': 0.6948}
+RUN minimum_signal threshold AI: 16 chains x 6000 revisions
+DONE minimum_signal threshold AI: 46.3s; {'group_relative_contribution': 0.2401, 'surplus': 0.0076, 'success': 0.2972}
+RUN minimum_signal threshold MI: 16 chains x 6000 revisions
+DONE minimum_signal threshold MI: 41.6s; {'group_relative_contribution': 0.2906, 'surplus': 0.0834, 'success': 0.4488}

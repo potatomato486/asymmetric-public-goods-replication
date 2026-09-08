@@ -1,0 +1,72 @@
+{
+  "linear": {
+    "input_rows": 12480,
+    "input_columns": 7,
+    "missing_cells": 0,
+    "duplicate_observation_keys": 0,
+    "group_sessions": 156,
+    "participant_session_ids": 624,
+    "pooled_group_id_unique": false,
+    "excluded_rows": 0,
+    "exclusion_reason": "none; exactly the supplied first-20-round dataset",
+    "group_key": [
+      "Treatment",
+      "Session",
+      "GroupID"
+    ],
+    "observation_key": [
+      "Treatment",
+      "Session",
+      "GroupID",
+      "PlayerID",
+      "Round"
+    ],
+    "group_sessions_by_treatment": {
+      "FE": 50,
+      "AI": 52,
+      "MI": 54
+    },
+    "participant_identity_across_sessions": "not reconstructible from GlobalPlayerID; IDs change by session",
+    "existing_csv_cellwise_equal": true,
+    "existing_csv_sha256": "4fe0d87e3600c16918ccd35f8a369aed405698e515761391a5469829899aac9a",
+    "existing_csv_path": "C:\\Users\\GU\\Documents\\GitHub\\asymmetric-public-goods-replication\\data\\LinearPGG_4P_ExperimentalData.csv",
+    "source_mat_sha256": "dcdd23e709ce1c17fadddffb84d07b9cf2f37a0a206e4665317aed31fd4e790b",
+    "converted_csv_sha256": "4fe0d87e3600c16918ccd35f8a369aed405698e515761391a5469829899aac9a",
+    "output_group_round_rows": 3120,
+    "output_group_round_columns": 9
+  },
+  "threshold": {
+    "input_rows": 11040,
+    "input_columns": 7,
+    "missing_cells": 0,
+    "duplicate_observation_keys": 0,
+    "group_sessions": 138,
+    "participant_session_ids": 552,
+    "pooled_group_id_unique": false,
+    "excluded_rows": 0,
+    "exclusion_reason": "none; exactly the supplied first-20-round dataset",
+    "group_key": [
+      "Treatment",
+      "Session",
+      "GroupID"
+    ],
+    "observation_key": [
+      "Treatment",
+      "Session",
+      "GroupID",
+      "PlayerID",
+      "Round"
+    ],
+    "group_sessions_by_treatment": {
+      "FE": 38,
+      "AI": 50,
+      "MI": 50
+    },
+    "participant_identity_across_sessions": "not reconstructible from GlobalPlayerID; IDs change by session",
+    "source_mat_sha256": "76b02d921d02ad652cb952a71173e84b206135e4deb7bfc6235b9387738a6b05",
+    "converted_csv_sha256": "d9746fab545d06209ea5807f818f93aaf2d9ae3e646ffa9d8873fd44dfc5ff87",
+    "output_group_round_rows": 2760,
+    "output_group_round_columns": 9
+  },
+  "published_benchmarks": "all six means checked against SI pp16,18; tolerance reflects rounding"
+}

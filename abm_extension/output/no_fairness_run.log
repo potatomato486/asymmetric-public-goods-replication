@@ -1,0 +1,12 @@
+RUN no_fairness linear FE: 16 chains x 6000 revisions
+DONE no_fairness linear FE: 41.1s; {'group_relative_contribution': 0.5953, 'surplus': 1.3097, 'success': nan}
+RUN no_fairness linear AI: 16 chains x 6000 revisions
+DONE no_fairness linear AI: 34.8s; {'group_relative_contribution': 0.6446, 'surplus': 1.6374, 'success': nan}
+RUN no_fairness linear MI: 16 chains x 6000 revisions
+DONE no_fairness linear MI: 33.4s; {'group_relative_contribution': 0.5437, 'surplus': 1.0429, 'success': nan}
+RUN no_fairness threshold FE: 16 chains x 6000 revisions
+DONE no_fairness threshold FE: 66.0s; {'group_relative_contribution': 0.4889, 'surplus': 0.0497, 'success': 0.6462}
+RUN no_fairness threshold AI: 16 chains x 6000 revisions
+DONE no_fairness threshold AI: 40.0s; {'group_relative_contribution': 0.4579, 'surplus': 0.0043, 'success': 0.5545}
+RUN no_fairness threshold MI: 16 chains x 6000 revisions
+DONE no_fairness threshold MI: 41.2s; {'group_relative_contribution': 0.4514, 'surplus': 0.1518, 'success': 0.7239}

@@ -1,0 +1,12 @@
+RUN initial_zero linear FE: 16 chains x 6000 revisions
+DONE initial_zero linear FE: 47.3s; {'group_relative_contribution': 0.6588, 'surplus': 1.4493, 'success': nan}
+RUN initial_zero linear AI: 16 chains x 6000 revisions
+DONE initial_zero linear AI: 40.6s; {'group_relative_contribution': 0.6998, 'surplus': 1.7657, 'success': nan}
+RUN initial_zero linear MI: 16 chains x 6000 revisions
+DONE initial_zero linear MI: 39.1s; {'group_relative_contribution': 0.5587, 'surplus': 1.072, 'success': nan}
+RUN initial_zero threshold FE: 16 chains x 6000 revisions
+DONE initial_zero threshold FE: 37.8s; {'group_relative_contribution': 0.0018, 'surplus': -0.0018, 'success': 0.0}
+RUN initial_zero threshold AI: 16 chains x 6000 revisions
+DONE initial_zero threshold AI: 38.8s; {'group_relative_contribution': 0.0019, 'surplus': -0.0019, 'success': 0.0}
+RUN initial_zero threshold MI: 16 chains x 6000 revisions
+DONE initial_zero threshold MI: 33.1s; {'group_relative_contribution': 0.0016, 'surplus': -0.0016, 'success': 0.0}

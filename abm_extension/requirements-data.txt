@@ -1,0 +1,3 @@
+# Only needed to decode the pinned author MATLAB tables with prepare_data.py.
+-r requirements.txt
+scipy==1.18.1

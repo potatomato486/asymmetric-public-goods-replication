@@ -1,0 +1,42 @@
+{
+  "access_date": "2026-09-07",
+  "paper_doi": "10.1073/pnas.2525760123",
+  "zenodo_doi": "10.5281/zenodo.16918146",
+  "license": "CC BY 4.0",
+  "files": [
+    {
+      "file": "LinearPGG_4P_ExperimentalData.mat",
+      "url": "https://zenodo.org/api/records/16918146/files/LinearPGG_4P_ExperimentalData.mat/content",
+      "zenodo_md5": "md5:42153952f8e6614d09c2d903fd97af62",
+      "sha256": "dcdd23e709ce1c17fadddffb84d07b9cf2f37a0a206e4665317aed31fd4e790b"
+    },
+    {
+      "file": "code_thresholdPGG.zip",
+      "url": "https://zenodo.org/api/records/16918146/files/code_thresholdPGG.zip/content",
+      "zenodo_md5": "md5:8913fc6ed32a44f963b4ad338b28a986",
+      "sha256": "fb0a6120dc3c3e2d1fe2698e1355cc8ce519d985ddfc7a2d5e38b3e9f3da576d"
+    },
+    {
+      "file": "code_linearPGG.zip",
+      "url": "https://zenodo.org/api/records/16918146/files/code_linearPGG.zip/content",
+      "zenodo_md5": "md5:667a9e35d580a8b86cf8f41e89e6af73",
+      "sha256": "841d4f0eb56bdc92a798e7c5fd8428b7a6894c767943efe24dba5ac33ba874e3"
+    },
+    {
+      "file": "ThresholdPGG_4P_ExperimentalData.mat",
+      "url": "https://zenodo.org/api/records/16918146/files/ThresholdPGG_4P_ExperimentalData.mat/content",
+      "zenodo_md5": "md5:6036f73c2f758ab3aeed6dcf4f74585b",
+      "sha256": "76b02d921d02ad652cb952a71173e84b206135e4deb7bfc6235b9387738a6b05"
+    },
+    {
+      "file": "paper.pdf",
+      "url": "https://christian-hilbe.github.io/files/2026_wang_pnas.pdf",
+      "sha256": "00f3319c88e21f2fe25c43166637776d189feca9e5a68890af370a94abde7833"
+    },
+    {
+      "file": "supplement.pdf",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12867639/supplementaryFiles",
+      "sha256": "1b71de6580b30d1e9624e4f7cbc36b3dd13f58fab5e4f47889bd437b448edbc6"
+    }
+  ]
+}

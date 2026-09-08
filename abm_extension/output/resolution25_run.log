@@ -1,0 +1,12 @@
+RUN resolution25 linear FE: 16 chains x 6000 revisions
+DONE resolution25 linear FE: 47.1s; {'group_relative_contribution': 0.6452, 'surplus': 1.4194, 'success': nan}
+RUN resolution25 linear AI: 16 chains x 6000 revisions
+DONE resolution25 linear AI: 40.7s; {'group_relative_contribution': 0.6489, 'surplus': 1.6446, 'success': nan}
+RUN resolution25 linear MI: 16 chains x 6000 revisions
+DONE resolution25 linear MI: 39.1s; {'group_relative_contribution': 0.5652, 'surplus': 1.0748, 'success': nan}
+RUN resolution25 threshold FE: 16 chains x 6000 revisions
+DONE resolution25 threshold FE: 38.4s; {'group_relative_contribution': 0.5472, 'surplus': 0.1888, 'success': 0.8832}
+RUN resolution25 threshold AI: 16 chains x 6000 revisions
+DONE resolution25 threshold AI: 39.6s; {'group_relative_contribution': 0.4991, 'surplus': 0.1214, 'success': 0.7446}
+RUN resolution25 threshold MI: 16 chains x 6000 revisions
+DONE resolution25 threshold MI: 33.1s; {'group_relative_contribution': 0.5199, 'surplus': 0.1378, 'success': 0.7893}

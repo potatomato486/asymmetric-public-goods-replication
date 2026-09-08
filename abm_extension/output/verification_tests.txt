@@ -1,0 +1,22 @@
+test_fairness_matches_dyadic_equation_four (test_model.GameTests.test_fairness_matches_dyadic_equation_four) ... ok
+test_independent_scalar_payoff_oracle (test_model.GameTests.test_independent_scalar_payoff_oracle) ... ok
+test_invalid_states_rejected (test_model.GameTests.test_invalid_states_rejected) ... ok
+test_linear_known_cases (test_model.GameTests.test_linear_known_cases) ... ok
+test_pairwise_fairness_not_deviation_from_mean (test_model.GameTests.test_pairwise_fairness_not_deviation_from_mean) ... ok
+test_published_table (test_model.GameTests.test_published_table) ... ok
+test_threshold_equality_and_one_unit_below (test_model.GameTests.test_threshold_equality_and_one_unit_below) ... ok
+test_agent_relabeling_invariance (test_model.ScheduleTests.test_agent_relabeling_invariance) ... ok
+test_all_iteration_orders_same (test_model.ScheduleTests.test_all_iteration_orders_same) ... ok
+test_complete_chain_against_scalar_reference (test_model.ScheduleTests.test_complete_chain_against_scalar_reference) ... ok
+test_counterfactual_recomputes_others (test_model.ScheduleTests.test_counterfactual_recomputes_others) ... ok
+test_independent_scalar_episode_oracle (test_model.ScheduleTests.test_independent_scalar_episode_oracle) ... ok
+test_initial_and_parameter_extremes (test_model.ScheduleTests.test_initial_and_parameter_extremes) ... ok
+test_probability_extremes (test_model.ScheduleTests.test_probability_extremes) ... ok
+test_seed_reproducibility_and_batch_independence (test_model.ScheduleTests.test_seed_reproducibility_and_batch_independence) ... ok
+test_sequential_negative_control_differs (test_model.ScheduleTests.test_sequential_negative_control_differs) ... ok
+test_signal_definition_extremes_and_tie (test_model.ScheduleTests.test_signal_definition_extremes_and_tie) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.810s
+
+OK

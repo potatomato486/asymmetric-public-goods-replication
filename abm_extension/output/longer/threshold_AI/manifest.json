@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "experiment": "longer",
+  "game": {
+    "kind": "threshold",
+    "treatment": "AI",
+    "endowments": [
+      36,
+      36,
+      12,
+      12
+    ],
+    "productivities": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "threshold": 120,
+    "reward": 20
+  },
+  "config": {
+    "steps": 12000,
+    "burn_in": 8000,
+    "thin": 100,
+    "rounds": 20,
+    "levels": 13,
+    "beta": 18,
+    "gamma": 94,
+    "selection": 1.0,
+    "initial": "random",
+    "signal": "mean",
+    "diagnostic_every": 250
+  },
+  "seeds": [
+    2026100800,
+    2026100801,
+    2026100802,
+    2026100803,
+    2026100804,
+    2026100805,
+    2026100806,
+    2026100807,
+    2026100808,
+    2026100809,
+    2026100810,
+    2026100811,
+    2026100812,
+    2026100813,
+    2026100814,
+    2026100815
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "seed_generator": "numpy default_rng PCG64",
+  "source_hashes": {
+    "abm\\__init__.py": "5ed87450ed9172e0727954b241f6c574835030f113742cd67591d4686eb837af",
+    "abm\\game.py": "5cf65101d08f8bb9e8d02769b3084657abc83676f6d8bf5bd19616a4b17e17fb",
+    "abm\\simulation.py": "15574aa4bb2e27aa88c6ee8cb8484becc6bd0d4ac3b5b3b9b2826e9c2e28d97e",
+    "abm\\strategies.py": "6e40ab38e3ec0566c0adc0bb8f9ae9ba0cea5f239651826f42bff5d35841ae94"
+  },
+  "parameter_source": "SI Table S15 p14; dyadic learning optima SI p13",
+  "estimation": "no four-player calibration; finite-chain transfer diagnostic",
+  "seconds": 69.70797389999643,
+  "audit": {
+    "agent_rows": 51200,
+    "group_rows": 12800,
+    "chains": 16,
+    "excluded_burn_in_profiles_per_chain": 8000,
+    "snapshot_sampling": "every thin revisions after burn-in; chain_summary uses ALL post-burn profiles",
+    "no_deleted_or_filtered_agent_observations": true
+  },
+  "output_sha256": {
+    "agent_round.csv": "c830dc82dfbe64a8a48b79d8f384531cf6633208607528d0802f1046136c8b75",
+    "chain_summary.csv": "f6b266225066cb411685aadf0ef47bb2097642ea68e48cb74b354626a0364b71",
+    "group_round.csv": "d44835a576fd748d5cbb568a08792783208266962b12572fdc2e392b888f682d",
+    "learning_blocks.csv": "035ae73284e4b782716fa636ed1f025006ee9032111689091e749a320f9ec6a9"
+  }
+}

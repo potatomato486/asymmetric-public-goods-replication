@@ -1,0 +1,46 @@
+      game treatment                      metric experimental_mean
+    linear        FE group_relative_contribution        0.63270833
+    linear        FE                     surplus        1.39195833
+    linear        FE                        gini        0.03897253
+    linear        AI group_relative_contribution        0.67029247
+    linear        AI                     surplus        1.66321314
+    linear        AI                        gini        0.07408135
+    linear        MI group_relative_contribution        0.67268519
+    linear        MI                     surplus        1.30140046
+    linear        MI                        gini        0.07492642
+ threshold        FE group_relative_contribution        0.48325110
+ threshold        FE                     surplus        0.26674890
+ threshold        FE                        gini        0.01820055
+ threshold        FE                     success        0.90000000
+ threshold        AI group_relative_contribution        0.34809375
+ threshold        AI                     surplus        0.05190625
+ threshold        AI                        gini        0.20701208
+ threshold        AI                     success        0.48000000
+ threshold        MI group_relative_contribution        0.36559375
+ threshold        MI                     surplus        0.12440625
+ threshold        MI                        gini        0.19882652
+ threshold        MI                     success        0.58800000
+ simulation_mean   mc_lower   mc_upper
+      0.66186035 0.63138127 0.69233943
+      1.45609276 1.38903879 1.52314674
+      0.03904114 0.03540604 0.04267624
+      0.69124903 0.66471999 0.71777807
+      1.74647801 1.67851995 1.81443607
+      0.04531157 0.04049415 0.05012898
+      0.56260715 0.54704413 0.57817016
+      1.07921883 1.04989694 1.10854073
+      0.08453553 0.08083583 0.08823523
+      0.56108081 0.52894356 0.59321807
+      0.22364607 0.18819685 0.25909530
+      0.01108024 0.00917659 0.01298389
+      0.94167227 0.87729341 1.00605112
+      0.49559751 0.45191465 0.53928036
+      0.15932990 0.10243400 0.21622580
+      0.13117816 0.11090163 0.15145469
+      0.78591289 0.67027828 0.90154750
+      0.49348321 0.45139880 0.53556762
+      0.20904120 0.15291805 0.26516435
+      0.12395170 0.10499086 0.14291255
+      0.84302930 0.73119594 0.95486266
+
+Analysis complete; outputs saved under output/.

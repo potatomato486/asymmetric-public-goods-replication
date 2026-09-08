@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "experiment": "baseline",
+  "game": {
+    "kind": "threshold",
+    "treatment": "FE",
+    "endowments": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "productivities": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "threshold": 48,
+    "reward": 20
+  },
+  "config": {
+    "steps": 6000,
+    "burn_in": 2000,
+    "thin": 100,
+    "rounds": 20,
+    "levels": 13,
+    "beta": 18,
+    "gamma": 94,
+    "selection": 1.0,
+    "initial": "random",
+    "signal": "mean",
+    "diagnostic_every": 250
+  },
+  "seeds": [
+    2026100700,
+    2026100701,
+    2026100702,
+    2026100703,
+    2026100704,
+    2026100705,
+    2026100706,
+    2026100707,
+    2026100708,
+    2026100709,
+    2026100710,
+    2026100711,
+    2026100712,
+    2026100713,
+    2026100714,
+    2026100715,
+    2026100716,
+    2026100717,
+    2026100718,
+    2026100719,
+    2026100720,
+    2026100721,
+    2026100722,
+    2026100723,
+    2026100724,
+    2026100725,
+    2026100726,
+    2026100727,
+    2026100728,
+    2026100729,
+    2026100730,
+    2026100731
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "seed_generator": "numpy default_rng PCG64",
+  "source_hashes": {
+    "abm\\__init__.py": "5ed87450ed9172e0727954b241f6c574835030f113742cd67591d4686eb837af",
+    "abm\\game.py": "5cf65101d08f8bb9e8d02769b3084657abc83676f6d8bf5bd19616a4b17e17fb",
+    "abm\\simulation.py": "15574aa4bb2e27aa88c6ee8cb8484becc6bd0d4ac3b5b3b9b2826e9c2e28d97e",
+    "abm\\strategies.py": "6e40ab38e3ec0566c0adc0bb8f9ae9ba0cea5f239651826f42bff5d35841ae94"
+  },
+  "parameter_source": "SI Table S15 p14; dyadic learning optima SI p13",
+  "estimation": "no four-player calibration; finite-chain transfer diagnostic",
+  "seconds": 82.34075409999787,
+  "audit": {
+    "agent_rows": 102400,
+    "group_rows": 25600,
+    "chains": 32,
+    "excluded_burn_in_profiles_per_chain": 2000,
+    "snapshot_sampling": "every thin revisions after burn-in; chain_summary uses ALL post-burn profiles",
+    "no_deleted_or_filtered_agent_observations": true
+  },
+  "output_sha256": {
+    "agent_round.csv": "fdde357a7ffb83ab269595d483ee036fad27683579b73bd7523b822fb9bec7dc",
+    "chain_summary.csv": "57f710d1c30aaa845d25e40758db8732161fd9197b60bfc935cf558f593eaa40",
+    "group_round.csv": "3b131a646d52aeaf27be9daa6dc18ebd8bf5bb2f76ee457286625a7a17656a80",
+    "learning_blocks.csv": "9447684c1c7fb3e39bfad624d5b3158d84da4fb4fd8948ccb83387f264c89115"
+  }
+}
